@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#kutya{
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+    color: #800000;
+}
+
+#kutya th{
+    padding: 10px;
+}
+
+#kutya tr{
+    border: solid 1px black;
+}
+
+#kutya tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
